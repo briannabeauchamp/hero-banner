@@ -21,15 +21,18 @@ h2 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
-  text-align: center;
+  text-align: left;
+  padding: .25em;
 }
 
 .banner-content {
   position: absolute;
   top: .5em;
   bottom: 2em;
+  left: 50%;
   width: 100%;
   max-width: 50em;
+  transform: translateX(-50%);
 }
 
 .img-flex {
