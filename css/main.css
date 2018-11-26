@@ -14,7 +14,6 @@ body {
 .banner {
   position: relative;
   text-align: center;
-  font-size: 2rem;
   max-height: 500px;
   overflow: hidden;
 }
@@ -26,15 +25,22 @@ body {
 h1 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
+  font-size: 4rem;
 }
 
 .img-flex {
   position: absolute;
-  bottom: 2em;
+  bottom: 11.5em;
   width: 100%;
   max-width: 50em;
+  display: block;
 }
 
 .img-flex h1, .img-flex p {
   margin: 0;
+}
+
+p {
+  font-style: italic;
+  font-size: 2rem;
 }
